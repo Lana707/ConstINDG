@@ -3577,6 +3577,29 @@
                     21
                 ]
             }
-        }
+        },
+        {
+    "type": "Feature",
+    "id": "HiS",
+    "properties": {
+        "name": "Hole in Sky",
+        "desig": "HiS",
+        "gen": "HiS",
+        "rank": "1",
+        "en": "Hole in Sky",
+        "display": [
+            55,
+            22,
+            55
+        ]
+    },
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            56,
+            25
+        ]
+    }
+}
     ]
 }
