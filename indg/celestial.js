@@ -3219,7 +3219,7 @@
       id = d.id;
       if (id === config.constellation) selected = i;
       name = d.properties[config.constellations.namesType];
-      if (name !== id) name += " (" + id + ")";
+      //if (name !== id) name += " (" + id + ")";
       list.push({ o: id, n: name });
     });
     if (list.length < 1 || sel.length < 1) {
