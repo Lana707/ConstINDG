@@ -2409,6 +2409,27 @@
         },
         {
             "type": "Feature",
+            "id": "OriB",
+            "properties": {
+                "name": "Orion's Belt",
+                "rank": "2",
+                "en": "They Go With Someone in a Canoe",
+                "oj": "Aadawaa'amoog",
+                "display": [
+                    84,
+                    -1,
+                    75
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    84,
+                    -1
+                ]
+            }
+        },        {
+            "type": "Feature",
             "id": "Ori",
             "properties": {
                 "name": "Orion",
@@ -2416,7 +2437,7 @@
                 "gen": "Orionis",
                 "rank": "1",
                 "en": "Wintermaker",
-                "la": "Biboonkeonini",
+                "oj": "Biboonkeonini",
                 "display": [
                     83,
                     6,
