@@ -1103,7 +1103,6 @@
                 "rank": "2",
                 "en": "The Sweat Lodge",
                 "la": "Madoodiswan",
-
                 "display": [
                     -122.3521,
                     32.6249,
@@ -2417,7 +2416,7 @@
                 "gen": "Orionis",
                 "rank": "1",
                 "en": "Wintermaker",
-                "la":"Biboonkeonini",
+                "la": "Biboonkeonini",
                 "display": [
                     83,
                     6,
@@ -2483,7 +2482,7 @@
                 "gen": "Pegasi",
                 "rank": "1",
                 "en": "Moose",
-                "la":"Mooz",
+                "la": "Mooz",
                 "display": [
                     -19,
                     19,
@@ -3372,7 +3371,6 @@
                 "rank": "1",
                 "en": "Fisher",
                 "la": "Ojiig",
-
                 "display": [
                     169.6902,
                     50.7212,
@@ -3394,8 +3392,7 @@
                 "name": "Ursa Minor",
                 "rank": "2",
                 "en": "Loon",
-                "la":"Loon",
-
+                "la": "Loon",
                 "display": [
                     -140,
                     78,
@@ -3579,27 +3576,50 @@
             }
         },
         {
-    "type": "Feature",
-    "id": "HiS",
-    "properties": {
-        "name": "Hole in Sky",
-        "desig": "HiS",
-        "gen": "HiS",
-        "rank": "1",
-        "en": "Hole in Sky",
-        "display": [
-            55,
-            22,
-            55
-        ]
-    },
-    "geometry": {
-        "type": "Point",
-        "coordinates": [
-            56,
-            25
-        ]
-    }
-}
+            "type": "Feature",
+            "id": "HiS",
+            "properties": {
+                "name": "Hole in Sky",
+                "desig": "HiS",
+                "gen": "HiS",
+                "rank": "1",
+                "en": "Hole in Sky",
+                "oj":"Bagonegiizhig",
+                "display": [
+                    55,
+                    22,
+                    55
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    56,
+                    25
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "SLS",
+            "properties": {
+                "name": "Sweat Lodge Stones",
+                "rank": "2",
+                "en": "Sweat Lodge Stones",
+                "oj":"Madoodoowasiniig",
+                "display": [
+                    55,
+                    22,
+                    55
+                ]
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    56,
+                    23.5
+                ]
+            }
+        }
     ]
 }
