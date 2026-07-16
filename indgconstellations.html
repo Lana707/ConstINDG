@@ -60,7 +60,7 @@
             // Default: desig or empty string for designations, other languages as used anywhere else
             culture: "",        // Source of constellations and star names, default "iau", other: "cn" Traditional Chinese
             container: "celestial-map",   // ID of parent element, e.g. div, null = html-body
-            datapath: "https://ofrohn.github.io/data/", //default data ~~~~~~~~~~
+            datapath: "indg/data/", //default data 
             // Path/URL to data files, empty = subfolder 'data'
             stars: {
                 show: true,    // Show stars
@@ -168,7 +168,7 @@
             },
             constellations: {
                 names: true,      // Show constellation names 
-                namesType: "iau", // Type of name Latin (iau, default), 3 letter designation (desig) or other language (see list below)
+                namesType: "la", // Type of name Latin (iau, default), 3 letter designation (desig) or other language (see list below)
                 nameStyle: {
                     fill: "#cccc99", align: "center", baseline: "middle",
                     font: ["14px Helvetica, Arial, sans-serif",  // Style for constellations
@@ -218,6 +218,11 @@
         // Display map with the configuration above or any subset thereof
         Celestial.display(config);
     </script>
+
+    <script>
+
+    </script>
+
 </body>
 
 </html>
