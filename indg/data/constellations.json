@@ -1107,26 +1107,8 @@
                 "desig": "Del",
                 "gen": "Delphini",
                 "rank": "3",
-                "en": "Dolphin",
-                "la": "Maang Anangoons",
-                "ar": "الدلفين",
-                "zh": "海豚座",
-                "cz": "Delfín",
-                "fa": "دُلفین",
-                "ee": "Delfiin",
-                "fi": "Delfiini",
-                "fr": "Dauphin",
-                "de": "Delphin",
-                "el": "Δελφίν",
-                "it": "Delfino",
-                "ja": "いるか座",
-                "ko": "돌고래자리",
-                "hi": "तिमि",
-                "ru": "Дельфин",
-                "es": "Delfín",
-                "tr": "Yunus",
-                "he": "דולפין",
-                "sw": "Dalufnin",
+                "en": "Little Loon",
+                "oj": "Maang Anangoons",
                 "display": [
                     -49.5963,
                     11.671,
@@ -1136,8 +1118,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -51,
-                    6
+                    -49,
+                    11
                 ]
             }
         },
