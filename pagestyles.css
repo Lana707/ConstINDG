@@ -1,3 +1,32 @@
-h1 {
+h1
+/*Make big top text centered*/
+
+    {
     text-align: center;
+}
+
+
+/*Removing options I dont need
+Source: https://stackoverflow.com/questions/2599627/how-to-select-label-for-xyz-in-css (was having trouble with selector for label)
+*/
+
+label[for="lang"],
+#lang,
+#width,
+label[for="width"],
+#celestial-date,
+#general span,
+#projection,
+#transform,
+label[for="projection"],
+label[for="transform"],
+#centerx,
+#centery,
+#centerz,
+label[for="centerx"],
+label[for="centerz"],
+label[for="orientationfixed"],
+#orientationfixed,
+label.advanced {
+    display: none;
 }
