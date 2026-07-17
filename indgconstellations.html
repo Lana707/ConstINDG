@@ -3,7 +3,7 @@
 
 
 <head>
-    <title>Lana</title>
+    <title>Ojibwe Constellations</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/styles.css" />
@@ -73,7 +73,7 @@
                 designationType: "desig",  // Which kind of name is displayed as designation (fieldname in starnames.json)
                 designationStyle: { fill: "#ddddbb", font: "11px 'Palatino Linotype', Georgia, Times, 'Times Roman', serif", align: "left", baseline: "top" },
                 designationLimit: 2.5,  // Show only names for stars brighter than nameLimit
-                propername: false,   // Show proper name (if present)
+                propername: true,   // Show proper name (if present)
                 propernameType: "name", // Languge for proper name, default IAU name; may vary with culture setting 
                 // (see list below of languages codes available for stars)
                 propernameStyle: { fill: "#ddddbb", font: "13px 'Palatino Linotype', Georgia, Times, 'Times Roman', serif", align: "right", baseline: "bottom" },
@@ -84,7 +84,7 @@
                 // number indicates limit magnitude
             },
             dsos: {
-                show: false,    // Show Deep Space Objects 
+                show: true,    // Show Deep Space Objects 
                 limit: 6,      // Show only DSOs brighter than limit magnitude
                 colors: true,  // // Show DSOs in symbol colors if true, use style setting below if false
                 style: { fill: "#cccccc", stroke: "#cccccc", width: 2, opacity: 1 }, // Default style for dsos

@@ -1884,23 +1884,8 @@
         },
         "propername": {
           "name": "IAU Name",
-          "ar": "Arabic",
-          "zh": "Chinese",
           "en": "English",
-          "fi": "Finnish",
-          "fr": "French",
-          "de": "German",
-          "el": "Greek",
-          "he": "Hebrew",
-          "hi": "Hindi",
-          "it": "Italian",
-          "ja": "Japanese",
-          "ko": "Korean",
-          "la": "Latin",
-          "fa": "Persian",
-          "ru": "Russian",
-          "es": "Spanish",
-          "tr": "Turkish"
+          "oj": "Ojibwe",
         }
       },
       "cn": {
@@ -1938,21 +1923,8 @@
         },
         "names": {
           "desig": "Designation",
-          "ar": "Arabic",
-          "zh": "Chinese",
           "en": "English",
-          "fr": "French",
-          "de": "German",
-          "el": "Greek",
-          "he": "Hebrew",
-          "hi": "Hindi",
-          "it": "Italian",
-          "ja": "Japanese",
-          "ko": "Korean",
-          "la": "Latin",
-          "fa": "Persian",
-          "ru": "Russian",
-          "es": "Spanish"
+          "oj": "Ojibwe"
         }
       },
       "cn": {
@@ -2517,7 +2489,7 @@
     col.append("input").attr("type", "number").attr("id", "centerz").attr("title", "Center orientation").attr("max", "180").attr("min", "-180").attr("step", "0.1").on("change", turn);
     col.append("span").html("\u00b0");
 
-   // col.append("label").attr("for", "orientationfixed").attr("class", "advanced").html("Fixed");
+    // col.append("label").attr("for", "orientationfixed").attr("class", "advanced").html("Fixed");
     //col.append("input").attr("type", "checkbox").attr("id", "orientationfixed").attr("class", "advanced").property("checked", config.orientationfixed).on("change", apply);
 
     col.append("label").attr("title", "Center and zoom in on this constellation").attr("for", "constellation").html("Show");
@@ -2674,25 +2646,25 @@
         col.append("input").attr("type", "checkbox").attr("id", "constellations-" + fld).attr("class", "advanced").property("checked", config.constellations[fld]).on("change", apply);
       }
     }
- //   col.append("label").attr("for", "constellations-lines").html(" lines");
-  //  col.append("input").attr("type", "checkbox").attr("id", "constellations-lines").property("checked", config.constellations.lines).on("change", apply);
+    //   col.append("label").attr("for", "constellations-lines").html(" lines");
+    //  col.append("input").attr("type", "checkbox").attr("id", "constellations-lines").property("checked", config.constellations.lines).on("change", apply);
 
-  //  col.append("label").attr("for", "constellations-bounds").html(" boundaries");
+    //  col.append("label").attr("for", "constellations-bounds").html(" boundaries");
     //col.append("input").attr("type", "checkbox").attr("id", "constellations-bounds").property("checked", config.constellations.bounds).on("change", apply);
 
     enable($form("constellations-names"));
 
     // graticules & planes 
-   // col = frm.append("div").attr("class", "col").attr("id", "lines");
+    // col = frm.append("div").attr("class", "col").attr("id", "lines");
     //col.append("label").attr("class", "header").html("Lines");
 
     //col.append("label").attr("title", "Latitude/longitude grid lines").attr("for", "lines-graticule").html("Graticule");
     //col.append("input").attr("type", "checkbox").attr("id", "lines-graticule-show").property("checked", config.lines.graticule.show).on("change", apply);
 
-   // col.append("label").attr("for", "lines-equatorial").html("Equator");
-//    col.append("input").attr("type", "checkbox").attr("id", "lines-equatorial-show").property("checked", config.lines.equatorial.show).on("change", apply);
+    // col.append("label").attr("for", "lines-equatorial").html("Equator");
+    //    col.append("input").attr("type", "checkbox").attr("id", "lines-equatorial-show").property("checked", config.lines.equatorial.show).on("change", apply);
 
-  //  col.append("label").attr("for", "lines-ecliptic").html("Ecliptic");
+    //  col.append("label").attr("for", "lines-ecliptic").html("Ecliptic");
     //col.append("input").attr("type", "checkbox").attr("id", "lines-ecliptic-show").property("checked", config.lines.ecliptic.show).on("change", apply);
 
     //col.append("label").attr("for", "lines-galactic").html("Galactic plane");
@@ -2702,11 +2674,11 @@
     //col.append("input").attr("type", "checkbox").attr("id", "lines-supergalactic-show").property("checked", config.lines.supergalactic.show).on("change", apply);
 
     // Other
-  //  col = frm.append("div").attr("class", "col").attr("id", "other");
-   // col.append("label").attr("class", "header").html("Other");
+    //  col = frm.append("div").attr("class", "col").attr("id", "other");
+    // col.append("label").attr("class", "header").html("Other");
 
     //col.append("label").attr("for", "mw-show").html("Milky Way");
-  //  col.append("input").attr("type", "checkbox").attr("id", "mw-show").property("checked", config.mw.show).on("change", apply);
+    //  col.append("input").attr("type", "checkbox").attr("id", "mw-show").property("checked", config.mw.show).on("change", apply);
 
     //col.append("label").attr("for", "mw-style-fill").attr("class", "advanced").html(" color");
     //col.append("input").attr("type", "color").attr("id", "mw-style-fill").attr("class", "advanced").attr("title", "Milky Way color").attr("value", config.mw.style.fill).on("change", apply);
@@ -2725,7 +2697,7 @@
     //col.append("label").attr("for", "background-opacity").attr("class", "advanced").html("opacity");
     //col.append("input").attr("type", "number").attr("id", "background-opacity").attr("class", "advanced").attr("title", "Background opacity").attr("value", config.background.opacity).attr("max", "1").attr("min", "0").attr("step", "0.01").on("change", apply);
 
-   //// col.append("label").attr("title", "Star/DSO sizes are increased with higher zoom-levels").attr("for", "adaptable").attr("class", "advanced").html("Adaptable object sizes");
+    //// col.append("label").attr("title", "Star/DSO sizes are increased with higher zoom-levels").attr("for", "adaptable").attr("class", "advanced").html("Adaptable object sizes");
     //col.append("input").attr("type", "checkbox").attr("id", "adaptable").attr("class", "advanced").property("checked", config.adaptable).on("change", apply);
 
     // General language setting
