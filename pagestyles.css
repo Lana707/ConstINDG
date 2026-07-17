@@ -36,3 +36,6 @@ label.advanced {
     padding-top: 1em;
 }
 
+body {
+  overflow-x: hidden;
+}

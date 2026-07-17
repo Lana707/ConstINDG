@@ -1,0 +1,4 @@
+
+body {
+  overflow-x: hidden; /*Hide anything too big to fit and removes ugly horizontal scroll bar*/
+}
