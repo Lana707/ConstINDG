@@ -30,3 +30,9 @@ label[for="orientationfixed"],
 label.advanced {
     display: none;
 }
+
+/*add some space between map and bottom form with options */
+#celestial-form {
+    padding-top: 1em;
+}
+
