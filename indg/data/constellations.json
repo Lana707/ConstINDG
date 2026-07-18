@@ -51,30 +51,6 @@
         },
         {
             "type": "Feature",
-            "id": "Del",
-            "properties": {
-                "name": "Delphinus",
-                "desig": "Del",
-                "gen": "Delphini",
-                "rank": "3",
-                "en": "Little Loon",
-                "oj": "Maang Anangoons",
-                "display": [
-                    -49.5963,
-                    11.671,
-                    49
-                ]
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -49,
-                    11
-                ]
-            }
-        },
-        {
-            "type": "Feature",
             "id": "Her",
             "properties": {
                 "name": "Hercules",
