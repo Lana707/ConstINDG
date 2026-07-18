@@ -84,8 +84,8 @@
                 "en": "The Exhausted Bather",
                 "oj": "Noondeshin Bemaadizid",
                 "display": [
-                    -99,
-                    27,
+                    -105,
+                    45,
                     107
                 ]
             },
@@ -93,7 +93,7 @@
                 "type": "Point",
                 "coordinates": [
                     -106.5,
-                    35
+                    40
                 ]
             }
         },
