@@ -10,11 +10,9 @@ h1
     font-family: "Playfair Display";
 }
 
-
 /*Removing options I dont need
 Source: https://stackoverflow.com/questions/2599627/how-to-select-label-for-xyz-in-css (was having trouble with selector for label)
 */
-
 label[for="lang"],
 #lang,
 #width,
@@ -176,4 +174,23 @@ header {
     opacity: 0;
     transition: .6s ease-in opacity;
     font: 13px/1 sans-serif;
+}
+
+/*change input fonts*/
+#datetime,
+#planets-symbolType,
+#planets-namesType,
+#constellation,
+#constellations-namesType {
+    font-family: "quicksand";
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(190, 191, 196);
+    color: black;
+    margin: -1em;
+    margin-top: 0.5em;
+    padding: 0.2em;
+    font-family: "quicksand";
 }
