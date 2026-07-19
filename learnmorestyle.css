@@ -5,7 +5,7 @@
 body {
   overflow-x: hidden;
   /*Hide anything too big to fit and removes ugly horizontal scroll bar*/
-margin: 2em;
+  margin: 2em;
 }
 
 h1
@@ -71,29 +71,30 @@ header {
 /*Kept mostly the same as on explore page (copy pasted)^*/
 
 footer {
-    text-align: center;
-    background-color: rgb(190, 191, 196);
-    color: black;
-    margin: -2em;
-    margin-top: 0.5em;
-    padding: 0.2em;
-    font-family: "quicksand";
+  text-align: center;
+  background-color: rgb(190, 191, 196);
+  color: black;
+  margin: -2em;
+  margin-top: 0.5em;
+  padding: 0.2em;
+  font-family: "quicksand";
 }
 
 /*font change headings*/
-h2, h3
-{
+h2,
+h3 {
   font-family: "Playfair display";
 }
 
 /*font change paragraphs, captions and links*/
-p, figcaption, a
-{
+p,
+figcaption,
+a {
   font-family: "quicksand";
 }
 
 /*reduce size of caption and references*/
-figcaption, div a
-{
+figcaption,
+div a {
   font-size: 0.75em;
 }
