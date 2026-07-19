@@ -19,7 +19,6 @@ label[for="lang"],
 #lang,
 #width,
 label[for="width"],
-#celestial-date,
 #general span,
 #projection,
 #transform,
@@ -32,7 +31,14 @@ label[for="centerx"],
 label[for="centerz"],
 label[for="orientationfixed"],
 #orientationfixed,
-label.advanced {
+label.advanced,
+#day-left,
+#day-right,
+#horizon-show,
+#daylight-show,
+label[for="daylight-show"],
+label[for="horizon-show"],
+label.header {
     display: none;
 }
 
@@ -94,4 +100,80 @@ header {
     height: 0.05em;
     display: inline-block;
     border: rgb(190, 191, 196) solid 0.05em;
+}
+
+/*making the options under the map look nicer*/
+
+/*Zoom controls*/
+#celestial-zoomin {
+    margin-left: 1.8em;
+}
+
+/*General spacing and font change*/
+#celestial-form {
+    padding: 1.5em;
+    margin-top: 1em;
+    font-family: "quicksand";
+}
+
+/*space between longitude and text*/
+#lon {
+    margin-left: 0.5em;
+}
+
+/* spacing for latitude and text*/
+#lat {
+    margin-left: 0.5em;
+}
+
+/*made changes to button, made black added some spacing, made text white , changed font removed border*/
+#here {
+    margin-left: 0.5em;
+    padding: 0.15em 0.5em;
+    color: white;
+    background-color: black;
+    font-family: "Quicksand";
+    border: none;
+}
+
+/*Changed this button to match previous and moved*/
+#now {
+    padding: 0.15em 0.5em;
+    color: white;
+    background-color: black;
+    font-family: "Quicksand";
+    border: none;
+}
+
+/*for some reason the calender was vertical, had to make it inline added some spacing and center text*/
+#celestial-date .date {
+    display: inline-block;
+    width: 1.58em;
+    padding: 0.1em 0.1em 0.1em 0.1em;
+    text-align: center;
+}
+
+/*add space between as and with for the little selection box as well as with and names from the language box*/
+#planets-symbolType,
+#planets-namesType {
+    margin-left: 0.1em;
+    margin-right: 0.1em;
+}
+
+/*space between show and input*/
+#constellation {
+    margin-left: 0.1em;
+}
+
+/*From the javascript library, reapplied since it wasnt working*/
+#celestial-date {
+    position: absolute;
+    top: -9999px;
+    width: 182px;
+    text-align: center;
+    border: 1px solid #000;
+    background: #fff;
+    opacity: 0;
+    transition: .6s ease-in opacity;
+    font: 13px/1 sans-serif;
 }
